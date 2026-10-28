@@ -10,6 +10,5 @@ public class Format {
     public static String formatName(String first, String last){
         String fullName = String.format("%s %s",last, first);
         return fullName;
-
     }
 }
